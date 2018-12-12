@@ -1,0 +1,83 @@
+body{
+	background: linear-gradient(rgb(60, 60, 60), rgb(10, 10, 10));
+	font-family: galaxy;
+	color: #ffffff;
+	font-size: 124%;
+}
+td{
+	margin: 1% 0%;
+	width: 100%;
+	text-align: center;
+}
+canvas{
+	position: absolute;
+	border: 1px solid rgba(255,255,255, 0.25);
+	top: 5%;
+	left: 25%;
+}
+.char-table{
+	position: absolute;
+	width: 65%;
+	height: 35%;
+	left: 17.5%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 125%;
+}
+.charbutton{
+	white-space: nowrap;
+	cursor: pointer;
+	text-decoration: none;
+	text-align: center;
+	border: none;
+	width: 120px;
+	height: 120px;
+}
+.char-info{
+	position: absolute;
+	background-color: rgba(0,0,0,0.8);
+	left: 10%;
+	top: 40%;
+	width: 80%;
+	height: 55%;
+}
+.char-ProfileImg{
+	position: relative;
+	margin: 1%;
+	background-color: rgba(50, 50, 50, 0.5);
+	height: 96%;
+	width: 46%;
+	float: right;
+	display: inline-block;
+}
+.char-Bio, .char-Stats, .char-StatsInfo{
+	position: relative;
+	top: 1%;
+	margin: 0.45% 1%;
+	background-color: rgba(50, 50, 50, 0.5);
+	height: 30%;
+	width: 46%;
+	float: left;
+	font-size: 100%;
+	text-align: left;
+	display: inline-block;
+}
+.center-text{
+	text-align: center;
+}
+.desctext{
+	margin: 3% 0% 0% 3%;
+}
+.desctitle{
+	font-weight: bold;
+}
+#charFullImage{
+	position:relative;
+	width: 60%;
+	height: 80%;
+	left: 20%;
+	top: 10%;
+}
+#char-bio-name{
+	text-align: center;
+}
