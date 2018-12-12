@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>Character Select</title>
+		<script src="extra3.js"></script>
+		<link rel="stylesheet" href="extra3.css">
+	</head>
+	<body>
+		<table class="char-table">
+			<th>
+				<td colspan="8">Fighters</td>
+			</th>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><button onClick="LoadInfo('P',0)" id="charP0" class="charbutton" type="button"></button></td>
+				<td><button onClick="LoadInfo('P',1)" id="charP1" class="charbutton" type="button"></button></td>
+				<td><button onClick="LoadInfo('P',2)" id="charP2" class="charbutton" type="button"></button></td>
+				<td><button onClick="LoadInfo('P',3)" id="charP3" class="charbutton" type="button"></button></td>
+				<td><button onClick="LoadInfo('P',4)" id="charP4" class="charbutton" type="button"></button></td>
+				<td><button onClick="LoadInfo('P',5)" id="charP5" class="charbutton" type="button"></button></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<th>
+				<td colspan="8">Enemies</td>
+			</th>
+			<tr>
+				<td><button onClick="LoadInfo('NPC',0)" id="charNPC0" class="charbutton" type="button"></button></td>
+				<td><button onClick="LoadInfo('NPC',1)" id="charNPC1" class="charbutton" type="button"></button></td>
+				<td><button onClick="LoadInfo('NPC',2)" id="charNPC2" class="charbutton" type="button"></button></td>
+				<td><button onClick="LoadInfo('NPC',3)" id="charNPC3" class="charbutton" type="button"></button></td>
+				<td><button onClick="LoadInfo('NPC',4)" id="charNPC4" class="charbutton" type="button"></button></td>
+				<td><button onClick="LoadInfo('NPC',5)" id="charNPC5" class="charbutton" type="button"></button></td>
+				<td><button onClick="LoadInfo('NPC',6)" id="charNPC6" class="charbutton" type="button"></button></td>
+				<td><button onClick="LoadInfo('NPC',7)" id="charNPC7" class="charbutton" type="button"></button></td>
+				<td><button onClick="LoadInfo('NPC',8)" id="charNPC8" class="charbutton" type="button"></button></td>
+				<td><button onClick="LoadInfo('NPC',9)" id="charNPC9" class="charbutton" type="button"></button></td>
+			</tr>
+		</table>
+		<div class="char-info">
+			<div class="char-ProfileImg">
+				<img id="charFullImage" src="blank.png" alt="" />
+			</div>
+			<div class="char-Bio">
+				<p class="desctitle" id="char-bio-name"><p/>
+				<p class="desctext" id="char-bio-bio"></p>
+			</div>
+			<div class="char-Stats">
+				<p class="desctext" id="char-stat-endurance">Defence: <p/>
+				<p class="desctext" id="char-stat-strength">Strength: <p/>
+				<p class="desctext" id="char-stat-mobility">Speed: <p/>
+				<!--<p class="desctext" id="char-stat-special">Special: <p/>-->
+				<canvas id="statCanvas" width="500%" height="120%"></canvas>
+			</div>
+			<div class="char-StatsInfo">
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	<!--links jquery-->
+	</body>
+</html>
